@@ -105,7 +105,7 @@
           class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row"
         >
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+            class="flex w-2/3 flex-col items-center rounded-3xl cart-border bg-white py-6 px-2 shadow-xl dark:bg-black sm:w-5/6"
           >
             <img src="./img/rocketman.png" alt="Explorer" class="mb-6 w-1/2" />
             <h3 class="text-center text-3xl text-slate-900 dark:text-white">
@@ -123,7 +123,7 @@
             </p>
           </li>
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+            class="flex w-2/3 flex-col items-center rounded-3xl cart-border bg-white py-6 px-2 shadow-xl dark:bg-black sm:w-5/6"
           >
             <img
               src="./img/rocketride.png"
@@ -145,7 +145,7 @@
             </p>
           </li>
           <li
-            class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
+            class="flex w-2/3 flex-col items-center rounded-3xl cart-border bg-white py-6 px-2 shadow-xl dark:bg-black sm:w-5/6"
           >
             <img
               src="./img/rocketlaunch.png"
@@ -180,58 +180,60 @@
         >
           Testimonials
         </h2>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p class="testemonial">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-              ad illo soluta esse ipsa quasi quia dolore similique dicta id
-              odio, rem aliquid, sapiente corrupti laborum nemo unde temporibus
-              tempora.
+        <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 my-12">
+          <div class="cart-border p-4">
+            <blockquote
+              class="relative bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
+            >
+              <p class="testemonial">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Expedita ad illo soluta esse ipsa quasi quia dolore similique
+                dicta id odio, rem aliquid, sapiente corrupti laborum nemo unde
+                temporibus tempora.
+              </p>
+            </blockquote>
+            <p
+              class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+            >
+              - Captain James T. Kirk
             </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            - Captain James T. Kirk
-          </figcaption>
-        </figure>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p class="testemonial">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
-              ipsam, consequuntur incidunt omnis iste quibusdam voluptate
-              tenetur impedit odio aliquid ratione fugit.
-              <span class="italic">Quas ut laborum atque harum</span>. Atque,
-              eveniet odit.
+          </div>
+          <div class="cart-border p-4">
+            <blockquote
+              class="relative bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
+            >
+              <p class="testemonial">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
+                ipsam, consequuntur incidunt omnis iste quibusdam voluptate
+                tenetur impedit odio aliquid ratione fugit.
+                <span class="italic">Quas ut laborum atque harum</span>. Atque,
+                eveniet odit.
+              </p>
+            </blockquote>
+            <p
+              class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+            >
+              - Commander Spock
             </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            - Commander Spock
-          </figcaption>
-        </figure>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p class="testemonial">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Obcaecati, numquam. Delectus eligendi asperiores ipsum ut nemo
-              illum quaerat aliquid facere modi, possimus, fugiat excepturi
-              tenetur quo voluptatem? Omnis, veritatis id.
+          </div>
+          <div class="cart-border p-4">
+            <blockquote
+              class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
+            >
+              <p class="testemonial">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati, numquam. Delectus eligendi asperiores ipsum ut nemo
+                illum quaerat aliquid facere modi, possimus, fugiat excepturi
+                tenetur quo voluptatem? Omnis, veritatis id.
+              </p>
+            </blockquote>
+            <p
+              class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+            >
+              - Doctor McCoy
             </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            - Doctor McCoy
-          </figcaption>
-        </figure>
+          </div>
+        </div>
       </section>
 
       <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
@@ -249,15 +251,15 @@
           action=""
           class="items-left mx-auto flex max-w-4xl flex-col gap-4 text-2xl sm:text-3xl"
         >
-          <label for="subject">Subject:</label>
+          <label for="email">Email:</label>
           <input
-            type="text"
-            id="subject"
+            type="email"
+            id="email"
             name="subject"
             required
             minlength="3"
             maxlength="60"
-            placeholder="Your Subject"
+            placeholder="Your E-mail"
             class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
           />
           <label for="message">Message:</label>
